@@ -13,177 +13,22 @@ header{
 footer{
     color: orange;}
 
-ul li{color: white;
-    display: inline-block;
-    position: sticky;
-    background-color: orange;}
-a{
-text-decoration: none;
-color: white;
-}
+ul li{
+    background-color: orange;}      
 
-h1{
-    color: orange;
-    }
-  
-.menu{
-    margin: 20px 10px 20px 120px;}
-
-.subtitulo{
-    margin: 10px 20px 10px 0px;}
-    
-.formulario{
-    background-color:wheat;
-    display: inline-block;}
-
-.pPrincipal{
-    color: white;}
-
-.tablaproductos{
-    background-color: bisque;}
-
-.productoColor{
-    background-color: white;}
-.ingredientesColor{
-    background-color: white;}
-.informacionNutricionalColor{
-    background-color: white;}
-    .loremnuestrostrabajos{
-        color: white;}
-/*index*/   
-header{
-    grid-area: header;
-}
-.h1Index{
-    grid-area: h1;
-    display: flex;
-    justify-content: center;
-}        
-nav{
-    grid-area: nav;
-    display: flex;
-    justify-content: center;
-}
-.sectionIndex{
-    grid-area: section
-}
-.asideIndex{
-    grid-area: aside;
-}
 footer{
-    grid-area: footer;
     display: flex;
     justify-content: center;
 }
-/*index*/
-
-/*nosotros*/
-.subtitulo{
-    grid-area: h1nosotros;
-}
-.sectionNotros{
-    grid-area:sectionnosotros;}
-.pSegundo{
-    grid-area: psegundo;
-}
-
-/*nosotros*/
-
-/*menu*/
-.sectionmenu{
-    grid-area: sectionmenu;
-}
-.asidemenu{
-    grid-area: asidemenu;
-}
-
-/*menu*/
-
-/*NT*/
-.sectionNT{
-    grid-area: sectionNT;
-}
-.asideNT{
-    grid-area: asideNT;
-}
-/*NT*/
-/*contacto*/
-.sectionmaps{
-    display: flex;
-    justify-content: center;
-}
-.formulario{
-    grid-area: asideform;
-}
-/*contacto*/
-@media screen and (min-width:320px) {
-    #grillaIndex{
-        display: grid;
-        grid-template-columns:auto;
-        grid-template-rows: 10% 10% 15% auto 40% 10%;
-        column-gap: 10px;
-        row-gap: 10px;
-        grid-template-areas: "header" "nav" "h1" "section" "aside" "footer";
-    }
-
-    .pag2{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows:10% 15% 10% auto 10%;
-        row-gap: 10px;
-        grid-template-areas:"header" "h1nosotros" "nav" "sectionnosotros" "footer"
-
-    }
-    .pag3{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 10% 15% 10% auto 10%;
-        column-gap: 10px;
-        row-gap: 10px;
-        grid-template-areas: "header" "h1nosotros" "nav" "sectionmenu" "asidemenu" "footer";
-    }
-    .pag4{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 10% 15% 10% auto 10%;
-    column-gap: 10px;
-    row-gap: 10px;
-    grid-template-areas: "header" "h1nosotros" "nav" "sectionNT" "asideNT" "footer";
-}
-.pag5{
-display: grid;
-        grid-template-columns: auto;
-        grid-template-rows:10% 15% 10% auto auto 10%;
-        row-gap: 10px;
-        grid-template-areas:"header" "h1nosotros" "nav" "sectionmaps" "asideform" "footer"
-
-}
-@media screen and (min-width: 1000px){
-    #grillaIndex{
-        display: grid;
-        grid-template-columns:auto 40%;
-        grid-template-rows: 20% 10% 10% auto 20%;
-        column-gap: 10px;
-        row-gap: 10px;
-        grid-template-areas: "header header" "nav nav" "h1 h1" "section aside" "footer footer";
-     }
     
-.pag3{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 10% 15% 10% auto 10%;
-    column-gap: 10px;
-    row-gap: 10px;
-    grid-template-areas: "header header" "h1nosotros h1nosotros" "nav nav" "sectionmenu asidemenu" "footer footer";
-}
-.pag4{
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 10% 15% 10% auto 10%;
-    column-gap: 10px;
-    row-gap: 10px;
-    grid-template-areas: "header header" "h1nosotros h1nosotros" "nav nav" "sectionNT asideNT" "footer footer";
-}
+.sectionIndex{
+        margin: 2%;}
 
+.sectionNosotros{
+    margin: 2%;
 }
+.sectionNT{
+    margin: 2%;
 }
+a:visited {color: blueviolet;}
+a:hover{text-decoration:underline} 
