@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Arvo:ital,wght@1,700 & display=swap');
+$colorPrincipal: orange;
+@import "body";
+
+header{
+    color: $colorPrincipal;}
+
+    ul li{
+        a{
+            background-color: $colorPrincipal;
+            &:hover{
+                background-color: white ;
+            } 
+        }
+    }
+footer{
+    color: $colorPrincipal;
+    display: flex;
+    justify-content: center;}
+    
+.sectionIndex{
+        margin: 2%;}
+
+.sectionNosotros{
+    margin: 2%;}
+.sectionNT{
+    margin: 2%;}
+a:visited {color: blueviolet;}
+a:hover{text-decoration:underline} 

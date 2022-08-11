@@ -1,34 +1,46 @@
-@import url('https://fonts.googleapis.com/css2? family= Arvo:ital,wght@1,700 & display=swap');
-body{
-    background-color: rgba(104, 60, 16, 0.877);
-    font-family:Arial, Helvetica, sans-serif;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Arvo', serif;}
-
-header{
-    color: orange;}
-
-footer{
-    color: orange;}
-
-ul li{
-    background-color: orange;}      
-
-footer{
-    display: flex;
-    justify-content: center;
+@import url("https://fonts.googleapis.com/css2? family= Arvo:ital,wght@1,700 & display=swap");
+body {
+  background-color: rgba(104, 60, 16, 0.877);
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Arvo", serif;
 }
-    
-.sectionIndex{
-        margin: 2%;}
 
-.sectionNosotros{
-    margin: 2%;
+header {
+  color: orange;
 }
-.sectionNT{
-    margin: 2%;
+
+ul li a {
+  background-color: orange;
 }
-a:visited {color: blueviolet;}
-a:hover{text-decoration:underline} 
+ul li a:hover {
+  background-color: white;
+}
+
+footer {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionIndex {
+  margin: 2%;
+}
+
+.sectionNosotros {
+  margin: 2%;
+}
+
+.sectionNT {
+  margin: 2%;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
