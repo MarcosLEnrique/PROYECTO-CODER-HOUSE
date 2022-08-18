@@ -22,10 +22,9 @@ footer{
 .sectionIndex{
         margin: $medidaMargin;}
 
-.sectionNosotros{
-    margin: $medidaMargin;}
-.sectionNT{
-    margin: $medidaMargin;}
+.sectionNosotros,.sectionNT{
+   @extend .sectionIndex;}
+
 a:visited {color: blueviolet;}
 a:hover{text-decoration:underline} 
 
@@ -33,22 +32,20 @@ a:hover{text-decoration:underline}
     .sectionIndex{
         margin: $medidaMargin / 2;
     }
-    .sectionNosotros{
-        margin: $medidaMargin / 2;
-    }
-    .sectionNT{
-        margin: $medidaMargin / 2;
-    }
 }
-div{
+.logos{
      display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
 }
-$redes: (whatsapp: green, facebook: Blue, instagram: Blueviolet);
+$redes: (whatsapp: green, facebook: Blue, instagram: red);
 @each $red, $color in $redes{
     .#{$red}{
         background-color: $color;
     }
+}
+.youtube{
+    background-color: map-get($redes, instagram);
 }
