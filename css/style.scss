@@ -49,3 +49,15 @@ $redes: (whatsapp: green, facebook: Blue, instagram: red);
 .youtube{
     background-color: map-get($redes, instagram);
 }
+@mixin subrayado($color, $style){
+    text-decoration: underline;
+    text-decoration-color: $color;
+    text-decoration-style: $style;
+}
+.p1{
+    @include subrayado(black,double);
+}
+.p2{
+    @include subrayado(orange,double);
+    
+}
