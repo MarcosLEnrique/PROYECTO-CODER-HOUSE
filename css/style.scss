@@ -60,3 +60,9 @@ $redes: (whatsapp: green, facebook: Blue, instagram: red);
     @include subrayado(orange,double);
     
 }
+.row>*{
+    padding-right: 0px;
+  }
+  .row{
+    margin-right: 0px;
+  }
