@@ -54,12 +54,13 @@ $redes: (whatsapp: green, facebook: Blue, instagram: red);
     text-decoration: underline;
     text-decoration-color: $color;
     text-decoration-style: $style;
+    text-align: center
 }
 .p1{
     @include subrayado(black,double);
 }
 .p2{
-    @include subrayado(orange,double);
+    @include subrayado(white,double);
     
 }
 .row>*{
