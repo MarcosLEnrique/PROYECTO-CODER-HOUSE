@@ -38,6 +38,7 @@ a:hover{text-decoration:underline}
 }
 .p1{
     @include subrayado(black,double);
+    font: size 20vw;
 }
 .p2{
     @include subrayado(black,solid);
