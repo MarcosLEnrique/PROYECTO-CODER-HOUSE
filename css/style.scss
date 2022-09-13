@@ -41,15 +41,7 @@ a:hover{text-decoration:underline}
     align-items: center;
     color: white;
 }
-$redes: (whatsapp: green, facebook: Blue, instagram: red);
-@each $red, $color in $redes{
-    .#{$red}{
-        background-color: $color;
-    }
-}
-.youtube{
-    background-color: map-get($redes, instagram);
-}
+
 @mixin subrayado($color, $style){
     text-decoration: underline;
     text-decoration-color: $color;
